@@ -1,0 +1,77 @@
+/* EXTERNAL FONT */
+
+@font-face{
+    font-family: "Proxima Nova Bold";
+    src: url("../font/ProximaNova/ProximaNova-Bold.ttf");
+  }
+  
+
+  @font-face{
+    font-family: "Object Sans Regular";
+    src: url("../font/ProximaNova/ObjectSans-Regular.ttf");
+  }
+
+  @font-face{
+    font-family: "Object Sans Heavy";
+    src: url("../font/ProximaNova/ObjectSans-Heavy.ttf");
+  }
+
+  @font-face{
+    font-family: "Object Sans Slanted";
+    src: url("../font/ProximaNova/ObjectSans-Slanted.ttf");
+  }
+
+  @font-face{
+    font-family: "Poppins Bold";
+    src: url("../font/Poppins/Poppins-Bold.ttf");
+  }
+
+  @font-face{
+    font-family: "Poppins Regular";
+    src: url("../font/Poppins/Poppins-Regular.ttf");
+  }
+
+
+
+
+
+  .navbar-nav li a{
+    color: rgb(236, 19, 12);
+    /* background-color: #E4E9FE; */
+    margin-left: 20px;
+}
+
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+    -webkit-transition: .35s;
+    transition: .35s;
+    font-family: Object Sans Regular;
+    font-size: 17px;
+    letter-spacing:0px;
+    color: #1B207F;
+    opacity: 1;
+}
+
+.navbar{
+     -webkit-box-shadow: none;
+     box-shadow: none;
+     background: #0245ee;
+  }
+  
+  .top-nav-collapse {
+    background-color: none !important;
+  }
+
+  .navbar:not(.top-nav-collapse) {
+    background: none !important;
+  }
+
+  @media (max-width: 991px) {
+   .navbar:not(.top-nav-collapse) {
+    background: #eaf0ff !important;
+   }
+  }
+
+  .info-color {
+    background-color: none !important;
+}
+
