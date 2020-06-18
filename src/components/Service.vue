@@ -20,7 +20,7 @@
   <div class="row">
     <div class="col-md-12">
         <div class="row">
-  <div class="col-md-5">
+  <div class="col-md-5 mb-4">
     <div class="list-group" id="list-tab" role="tablist">
       <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home"
         role="tab" aria-controls="home"> <span class="dot"><center class="numberLt">1</center></span> <span class="numberText">Credit Scoring</span></a>
@@ -286,6 +286,9 @@ and (max-device-width : 480px) {
     letter-spacing: 0px;
     color: #1B2484;
     opacity: 1;
+}
+.home_title h2 {
+  font-size: 40px;
 }
 }
 

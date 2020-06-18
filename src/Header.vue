@@ -61,4 +61,13 @@ export default {
     opacity: 1;
     padding: 10px 10px 10px 10px;
 }
+@media only screen and (max-width: 600px) {
+  .navbar.navbar-light .navbar-nav .nav-item .nav-link {
+    margin-left: 0 !important;
+    padding-left: 0;
+  }
+  .btn_get_started {
+    margin-left: 0 !important;
+  }
+}
 </style>

@@ -92,7 +92,7 @@
   </div>
 </div>
 
-<div class="container worrying">
+<div class="worrying">
   <div class="row">
     <div class="col-md-12">
        <h1>Stop worrying about Money</h1>
@@ -582,5 +582,21 @@ and (max-device-width : 1024px) {
       height: 100%;
       width: 100%;
 }
+}
+@media only screen and (max-width: 600px) {
+  .about_param {
+    padding: 10px 40px;
+  }
+  .vision {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .vision_sec2 {
+    margin-top: 0px;
+  }
+  .worrying {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 </style>

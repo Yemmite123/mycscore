@@ -11,7 +11,7 @@
       <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
         <h6 class="text-uppercase mb-4 font-weight-bold">MyCScore </h6>
         <!-- Social buttons -->
-        <div style="padding-top:17%" class="text-center text-md-left">
+        <div class="text-center footer-icons text-md-left">
           <ul class="list-unstyled list-inline">
             <li class="list-inline-item">
               <a class="btn-floating btn-sm">
@@ -212,7 +212,9 @@ letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
 }
-
+.footer-icons {
+  padding-top:17%;
+}
 .mdbBtn{
 text-align: left;
 font-family: Object Sans Regular;
@@ -236,5 +238,16 @@ input[type=text] {
     letter-spacing: 0px;
     /* color: #EBF1F5; */
     opacity: 1;
+}
+@media only screen and (max-width: 600px) {
+  .input-group {
+    margin-top: 20px !important;
+  }
+  .mdbTitle{
+    margin-bottom: 15px !important;
+  }
+  .footer-icons {
+  padding-top: 7%;
+}
 }
 </style>

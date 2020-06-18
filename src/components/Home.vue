@@ -5,7 +5,7 @@
     <div style="margin-bottom: 20%;"  class="container">
         <div class="row">
             <div style="margin-top:9%" class="col-md-6 home_title">
-                <h2 class="">Africa’s Best Credit Decision Platform.</h2>
+                <h2 class="africa">Africa’s Best Credit Decision Platform.</h2>
                 <p>Credit risk management powered by Artificial Intelligence.</p>
                 <p>We understand what it takes to run a profitable online lending operation.</p>
             </div>
@@ -41,12 +41,12 @@
 
 
 <div style="" class="container-fluid">
-  <div class="row">
+  <div class="row mb-4">
         <div class="container what_we_do">
            <center> 
                <h1>What We Do</h1>
                <br>
-              <center> <p>We are an Artificial Intelligence power house that helps financial institutions make better risk decisions to combat Non-Performing Loans (NLP’s).</p></center>
+              <center> <p class="px-4">We are an Artificial Intelligence power house that helps financial institutions make better risk decisions to combat Non-Performing Loans (NLP’s).</p></center>
            </center>
             <div style="margin-top:10%" class="row">
             <div class="row row-cols-1 row-cols-md-2">
@@ -157,7 +157,7 @@
         <!--Grid column-->
         <div class="col-xl-6 col-md-8 whyMyCScore">
           <h3 class="font-weight-bold">Why Use MyCScore?</h3>
-          <p class="">
+          <p class="px-4">
               We believe in passing on the savings to our customers with low, competitive rates and fees available.
           </p>
         </div>
@@ -168,21 +168,21 @@
       <div style="margin-top:5%" class="row">
         <!--First column-->
         <div class="col-lg-4 col-md-6">
-        <img style="height:80px" src="../assets/speed.svg" alt="">
+        <img style="height:80px" class="image" src="../assets/speed.svg" alt="">
           <p class="font-weight-bold my-3 whyMyCScoreTitle">Fast and Easy </p>
           <p class="whyMyCScorePara">Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit,dasol  <br>desre sed do eiusmod tempor.</p>
         </div>
         <!--/First column-->
         <!--Second column-->
         <div class="col-lg-4 col-md-6">
-            <img style="height:80px;" src="../assets/target.svg" alt="">
+            <img style="height:80px;" class="image" src="../assets/target.svg" alt="">
             <p class="font-weight-bold my-3 whyMyCScoreTitle">Over 87% accuracy</p>
             <p class="whyMyCScorePara">Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit,dasol  <br>desre sed do eiusmod tempor.</p>
         </div>
         <!--/Second column-->
         <!--Third column-->
         <div class="col-lg-4 col-md-6">
-            <img style="height:80px" src="../assets/money.svg" alt="">
+            <img style="height:80px" class="image" src="../assets/money.svg" alt="">
             <p class="font-weight-bold my-3 whyMyCScoreTitle">Saves Cost </p>
             <p class="whyMyCScorePara">Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit,dasol  <br>desre sed do eiusmod tempor.</p>
         </div>
@@ -196,7 +196,7 @@
   </div>
 </div>
   
-<div style="background: #F1F3F6 0% 0% no-repeat padding-box; padding-bottom:10%" class="container-fluid">
+<div style="background: #F1F3F6 0% 0% no-repeat padding-box; padding-bottom:10%" class="container-fluid pt-5">
     <div class="row">
         <div class="container">
         <div class="row">
@@ -414,7 +414,7 @@
       <div style=" margin-bottom: 2%;" class="card">
         <div class="card-header faq_card">   <br>
           <a  class="card-link" data-toggle="collapse" href="#faq2">
-            Whats the difference between student loan & Personal loans <span class="float-right faq_icon">  <img src="../assets/plus.svg" class="img-fluid " alt="Logo"></span>
+            Difference between student loan & Personal loans <span class="float-right faq_icon">  <img src="../assets/plus.svg" class="img-fluid " alt="Logo"></span>
           </a>  
         </div>
         <div id="faq2" class="collapse " data-parent="#accordion">
@@ -1175,4 +1175,59 @@ and (max-device-width : 1024px) {
   }
 }
 
+
+@media only screen and (max-width: 600px) {
+  .africa {
+    font-size: 40px !important;
+    margin-bottom: 20px;
+  }
+  .record_analytic {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .what_we_do h1{
+    font-size: 30px !important;
+    margin-top: 2em;
+  }
+  .what_we_do p{
+    font-size: 18px;
+  }
+  .what_we_do .card1 {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
+  .whyMyCScore {
+    margin-top: 10%;
+  }
+  .whyMyCScorePara {
+    margin-bottom: 25px;
+    font-size: 15px;
+  }
+  .image {
+    height: 60px !important;
+  }
+  .loan_opt h5 {
+    margin: 10px;
+  }
+  .loan_opt h4, .loan_opt h5 {
+    font-size: 30px;
+  }
+  .loan_opt p {
+    margin: 20px;
+    font-size: 17px;
+  }
+  #parent {
+    margin: 20px;
+  }
+  .letStarted {
+    margin: 70px 20px;
+  }
+  .letStarted p {
+    padding: 20px;
+  }
+  .testimony_fluid {
+    padding-top: 30px !important;
+  }
+  
+}
 </style>
