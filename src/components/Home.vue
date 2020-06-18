@@ -20,15 +20,15 @@
   <div class="row">
         <div class="container record_analytic">
             <div style="margin-top:3%" class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 analytics" >
                 <p>Recovered NLP’s</p>
                 <h2>$0.9 million</h2>
             </div>
-                <div class="col-md-4">
+                <div class="col-md-4 analytics">
                 <p>Digital Engagement</p>
                 <h2>40% user increase</h2>
             </div>
-                <div class="col-md-4">
+                <div class="col-md-4 analytics">
                 <p>Approval as fast as </p>
                 <h2>120 seconds</h2>
             </div>
@@ -210,7 +210,7 @@
                <div  class="col-md-1">
                </div>
             <div  id="parent" class="col-md-7">
-                <div class="container edu_loan_dis">
+                <div class="edu_loan_dis">
                     <div class="row">
                         <div class="col-md-6">
                           <div class="edu_loan">
@@ -1184,6 +1184,14 @@ and (max-device-width : 1024px) {
   .record_analytic {
     margin-left: 20px;
     margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .record_analytic p {
+    margin-bottom: 0;
+  }
+  .analytics {
+    padding: 10px;
   }
   .what_we_do h1{
     font-size: 30px !important;
