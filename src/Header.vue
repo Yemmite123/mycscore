@@ -13,9 +13,7 @@
       <router-link to="/Service" class="nav-item" tag="li" active-class="active"><a class="nav-link">Services</a></router-link>
       <router-link to="/Contact" class="nav-item" tag="li" active-class="active"><a class="nav-link">Contact</a></router-link>
        <li class="nav-item">
-        <a class=" btn_get_started" href="#">
-          Get Started
-        </a>
+          <router-link to="/register" class=" btn_get_started">Get Started</router-link>
       </li>
       
     </ul>
