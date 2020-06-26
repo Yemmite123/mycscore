@@ -12,7 +12,9 @@ import enterprise from '../assets/enterprise.png';
         <div class="col-sm-6 col-12 px-lg-5 form-box">
             <div class="p-5 mx-3">
                 <div class="text-center mb-3">
-                    <img src="../assets/mycscore.png" class="img-fluid img-responsive">
+                    <router-link to="/">
+                    <img src="../assets/MyCScore.png" height="40px"/>
+                    </router-link>
                 </div>
 
                 <ValidationObserver v-slot="{ handleSubmit }">
@@ -241,7 +243,7 @@ select option:hover {
 
 @media only screen and (max-width: 800px) {
 .image {
- max-height: 60vh !important;
+ max-height: 70vh !important;
 }
 }
 

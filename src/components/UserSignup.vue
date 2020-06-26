@@ -11,7 +11,9 @@
         <div class="col-sm-6 col-12 px-lg-5 form-box">
             <div class="p-5">
                 <div class="text-center mb-4">
-                    <img src="../assets/mycscore.png">
+                    <router-link to="/">
+                        <img src="../assets/MyCScore.png" height="40px"/>
+                    </router-link>
                 </div>
                 <ValidationObserver v-slot="{ handleSubmit }">
                     <form @submit.prevent="handleSubmit(signUp)">
@@ -210,7 +212,7 @@ select option:hover {
 
 @media only screen and (max-width: 800px) {
 .image {
- max-height: 60vh !important;
+ max-height: 70vh !important;
 }
 }
 

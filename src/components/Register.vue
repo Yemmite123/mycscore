@@ -1,13 +1,19 @@
 <template>
   <section id="register">
       <div class="row">
-          <div class="col-lg-5 col-12 image d-flex justify-content-md-center align-items-center vh-100">
-            
-            <div class="px-5 mx-lg-5">
+        <div class="col-lg-5 col-12 image vh-100">
+          <div class="p-5 mx-lg-5">
+            <router-link to="/">
+              <img src="../assets/MyCScore.png" height="40px"/>
+            </router-link>
+          </div>
+          <div class="mt-md-5 pt-md-5">
+            <div class="px-5 mx-lg-5 mt-md-5">
             <h2 class="few-clicks mb-5">A few clicks away to begin</h2>
             <p class="sub-text">Lorem ipsum dolor, sit amet consectetur adipisicing . <br>In iusto corrupti eos elit beunos jeybd totam iste distinctio facere blanditiis.
             <br> totam iste distinctio facere laudantium blanditiis.</p>
             </div>
+        </div>
         </div>
           <div class="col-lg-5 col-12 form-box my-5 ml-lg-5">
               <div class="row box mb-4" @click="individual()">
@@ -97,7 +103,7 @@ export default {
 
 @media only screen and (max-width: 800px) {
 .image {
- max-height: 60vh !important;
+ max-height: 70vh !important;
 }
 .box {
   padding: 30px 15px 30px 20px;

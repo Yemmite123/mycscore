@@ -13,7 +13,7 @@ import axios from '../axios';
             <div class="p-5 mx-lg-4">
                 <div class="text-center mb-4">
                     <router-link to="/">
-                        <img src="../assets/mycscore.png">
+                        <img src="../assets/mycscore.png" height="40px">
                     </router-link>
                 </div>
                 <div class="mt-5">
@@ -193,7 +193,7 @@ select option:hover {
 
 @media only screen and (max-width: 800px) {
 .image {
- max-height: 60vh !important;
+ max-height: 70vh !important;
 }
 }
 
