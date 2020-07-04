@@ -34,10 +34,12 @@
 <div style="background-color: #F7F7F7; padding-bottom:10%" class="container-fluid">
 <div class="container about_con">
   <div class="row">
-    <div class="col-md-5 about_how">
+    <div class="col-md-5 about_how mb-4">
       <h1>How It Works</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, dasol desre sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit, dasol desre sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        MyCScore uses algorithm operated by AI, to generate your credit scores within seconds, or within two blinks of an eye. First, you click on Get Started, and it gives you an application to fill. Once you are done with the application, you are required to submit it for the system to generate your own personal unique ID. 
+        Once your ID is ready, the link will be shared to all credit platforms that offer the type of loan you are looking for. With this link to your ID, they will be able to download and review your application. Our website requires permissions; these permissions strengthen your scoring. That is all the step you must take, and you are good to go.
+
       </p>
     </div>
     <div class="col-md-1">
@@ -59,7 +61,7 @@
      
        <div class="vision">
          <h1>Our Vision</h1>
-       <p>Some platforms are not meeting your expected or<br> affordable rates, others may take too long to get<br> approval. Don’t worry we have been there too.</p>
+       <p>To be Africa’s best trusted credit scoring powerhouse, facilitating access to credit for consumers from <br> all works of life. </p>
        </div>
     </div>
   </div>
@@ -70,7 +72,7 @@
     <div  class="col-md-12 goalBG"> 
        <div class="vision22">
          <h1>Our Goal</h1>
-         <p>Some platforms are not meeting your expected or<br> affordable rates, others may take too long to get<br> approval. Don’t worry we have been there too.</p>
+         <p>To be Africa’s most prominent powerhouse in Credit Scoring </p>
        </div>
     </div>
   </div>
@@ -82,7 +84,7 @@
      
        <div class="vision">
          <h1>Our Goal</h1>
-       <p>Some platforms are not meeting your expected or<br> affordable rates, others may take too long to get<br> approval. Don’t worry we have been there too.</p>
+       <p>MyCScore is committed to reducing credit risks and Non-performing loans for financial institutions, by giving access to highly predictive calculations showing the probability of risk on customers. It will help to make faster, and better credit scoring decisions with zero error rate</p>
        </div>
     </div>
 
@@ -92,7 +94,7 @@
   </div>
 </div>
 
-<div class="worrying">
+<div class="worrying py-5">
   <div class="row">
     <div class="col-md-12">
        <h1>Stop worrying about Money</h1>
@@ -267,9 +269,7 @@ import Footer from '../Footer.vue'
   background: #FFE4D1 0% 0% no-repeat padding-box;
   border-radius: 16px;
   opacity: 1;
-  height: 300px;
-  margin-top: 0%;
-  margin-bottom: 10%;
+  margin: 0 10% 10%;
 }
 .worrying h1{
   text-align: center;
@@ -278,7 +278,6 @@ import Footer from '../Footer.vue'
   letter-spacing: 0px;
   color: #1B207F;
   opacity: 1;
-  margin-top: 6%;
 }
 .worrying p{
   text-align: center;

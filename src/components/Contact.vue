@@ -1,6 +1,7 @@
 <template>
    <!-- Full Page Intro -->
-<header class="bodyBack2"> 
+<header>
+  <div class="bodyBack2">
   <app-header></app-header> 
     <div  class="container">
         <div class="row">
@@ -63,8 +64,9 @@
             </div>
         </div>
     </div>
+    </div>
 
-<app-blogs></app-blogs> 
+<!-- <app-blogs></app-blogs>  -->
 
 <app-footer></app-footer> 
 </header>
@@ -124,8 +126,6 @@ label{
       background: url("../assets/backgroundscores.png");
       background-repeat: no-repeat;
       background-size: cover;
-      height: 110%;
-      width: 100%;
 }
 
 .home_title h2{

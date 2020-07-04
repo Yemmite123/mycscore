@@ -74,7 +74,7 @@ import enterprise from '../assets/enterprise.png';
                   </ValidationObserver>
                 
                 <div class="my-5"  v-if="currentStep === 1">
-                   <router-link to="/"> <button class="cancel-btn">Cancel</button></router-link>
+                   <router-link to="/register"> <button class="cancel-btn">Cancel</button></router-link>
                     <button class="btn-primary login-btn float-right" v-if="currentStep === 1">Next</button>
                 </div>
                 <div class="my-5" v-if="currentStep === 2">

@@ -101,6 +101,7 @@ export default {
 }
 
 
+
 @media only screen and (max-width: 800px) {
 .image {
  max-height: 70vh !important;

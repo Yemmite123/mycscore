@@ -12,9 +12,7 @@
       <router-link to="/About" class="nav-item" tag="li" active-class="active"><a class="nav-link">About Us</a></router-link>
       <router-link to="/Service" class="nav-item" tag="li" active-class="active"><a class="nav-link">Services</a></router-link>
       <router-link to="/Contact" class="nav-item" tag="li" active-class="active"><a class="nav-link">Contact</a></router-link>
-       <li class="nav-item">
-          <router-link to="/register" class=" btn_get_started">Get Started</router-link>
-      </li>
+      <router-link to="/register" class="nav-item btn-get-started">Get Started</router-link>
       
     </ul>
   </div>
@@ -47,24 +45,28 @@ export default {
 .navbar.navbar-light .breadcrumb .nav-item .nav-link, .navbar.navbar-light .navbar-nav .nav-item .nav-link:hover {
    color: #FA9917;
 }
+.navbar.navbar-light .navbar-nav .nav-item.active>.nav-link {
+    background-color: none !important;
+}
 
-.btn_get_started{
-    width: 140px;
+.btn-get-started{
+    width: 140px !important;
     text-align: center;
-    background: #FA9917 0% 0% no-repeat padding-box;
-    border-radius: 10px;
+    background: #FA9917 0% 0% no-repeat padding-box !important;
+    border-radius: 10px !important;
     font-family: Object Sans Regular;
-    font-size: 15px;
+    font-size: 15px !important;
     color: #ffffff;
     opacity: 1;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px !important;
+    margin-left: 20px;
 }
 @media only screen and (max-width: 600px) {
   .navbar.navbar-light .navbar-nav .nav-item .nav-link {
     margin-left: 0 !important;
     padding-left: 0;
   }
-  .btn_get_started {
+  .btn-get-started {
     margin-left: 0 !important;
   }
 }

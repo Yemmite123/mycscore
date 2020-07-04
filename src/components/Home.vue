@@ -18,26 +18,24 @@
     
 <div style="" class="container-fluid bg">
   <div class="row">
-        <div class="container record_analytic">
-            <div style="margin-top:3%" class="row">
+      <div class="container record_analytic">
+          <div style="margin-top:3%" class="row">
             <div class="col-md-4 analytics" >
-                <p>Recovered NLP’s</p>
-                <h2>$0.9 million</h2>
+              <p>Recovered NLP’s</p>
+              <h2>$0.9 million</h2>
             </div>
-                <div class="col-md-4 analytics">
-                <p>Digital Engagement</p>
-                <h2>40% user increase</h2>
+            <div class="col-md-4 analytics">
+              <p>Digital Engagement</p>
+              <h2>67% user increase</h2>
             </div>
-                <div class="col-md-4 analytics">
-                <p>Approval as fast as </p>
-                <h2>120 seconds</h2>
+            <div class="col-md-4 analytics">
+              <p>Approval as fast as </p>
+              <h2>120 seconds</h2>
             </div>
-
-            </div>
-        </div>
+          </div>
+      </div>
   </div>
-  
-</div>
+</div> 
 
 
 <div style="" class="container-fluid">
@@ -68,7 +66,9 @@
                       </div>
                     </div>
                         <!--Text-->
-                        <p class="card_title">Our world class scoring algorithm determines the probability of default by a user.</p>
+                        <p class="card_title">Our credit scoring is fast and accurate, with the help of data collected from our users,
+                           which will be used discreetly in accordance with our privacy policy.
+                        </p>
                     </div>
                     </div>
                     <!-- Card -->
@@ -90,7 +90,7 @@
                         </div>    
                     </div>
                         <!--Text-->
-                        <p class="card_title">We generate automated reports for Financial Houses while showing findings through analytics.</p>
+                        <p class="card_title">We generate, analyze, and report automated financial reports for the financial institutions. These reports are detailed and analytic.</p>
                   </div>
                 </div>
                     <!-- Card -->
@@ -113,7 +113,8 @@
                         </div>  
                     </div>
                         <!--Text-->
-                        <p class="card_title">Our world class scoring algorithm determines the probability of default by a user.</p>
+                        <p class="card_title">With AI, we act as the buffer between a creditor, and a potential loan receiver, by helping the
+                           institution make better risk decisions concerning giving out NLPs.</p>
                     </div>
                     </div>
                     <!-- Card -->
@@ -135,7 +136,7 @@
                         </div>  
                       </div>
                         <!--Text-->
-                        <p class="card_title">Our predictive analytics system gives you an edge before making that credit decision, showing you possibly losses before you make them</p>
+                        <p class="card_title">We specialize in risk management by using our algorithm to describe possible losses and bad business decisions before a financial institution makes them. </p>
                     </div>
                     </div>
                     <!-- Card -->
@@ -170,21 +171,21 @@
         <div class="col-lg-4 col-md-6">
         <img style="height:80px" class="image" src="../assets/speed.svg" alt="">
           <p class="font-weight-bold my-3 whyMyCScoreTitle">Fast and Easy </p>
-          <p class="whyMyCScorePara">Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit,dasol  <br>desre sed do eiusmod tempor.</p>
+          <p class="whyMyCScorePara">Our speed in credit scoring is unmatched; it is generated within a maximum of 120 seconds.</p>
         </div>
         <!--/First column-->
         <!--Second column-->
         <div class="col-lg-4 col-md-6">
             <img style="height:80px;" class="image" src="../assets/target.svg" alt="">
             <p class="font-weight-bold my-3 whyMyCScoreTitle">Over 87% accuracy</p>
-            <p class="whyMyCScorePara">Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit,dasol  <br>desre sed do eiusmod tempor.</p>
+            <p class="whyMyCScorePara">We guarantee an accuracy of over 87%, because the scoring and collation all performed by AI.</p>
         </div>
         <!--/Second column-->
         <!--Third column-->
         <div class="col-lg-4 col-md-6">
             <img style="height:80px" class="image" src="../assets/money.svg" alt="">
             <p class="font-weight-bold my-3 whyMyCScoreTitle">Saves Cost </p>
-            <p class="whyMyCScorePara">Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit,dasol  <br>desre sed do eiusmod tempor.</p>
+            <p class="whyMyCScorePara">Our fees are affordable by the average user, and they are duly optimized by the user.</p>
         </div>
         <!--/Third column-->
       </div>
@@ -213,9 +214,9 @@
                 <div class="edu_loan_dis">
                     <div class="row">
                         <div class="col-md-6">
-                          <div class="edu_loan">
+                          <div class="edu_loan pl-md-4">
                              <h4>Educational Loan</h4>
-                             <p>We believe in passing on the <br>savings to our customers with low, competitive rates and fees <br>available. Lorem ipsum dolor sit<br> amet, consectetur adipiscing elit.</p>
+                             <p>We connect you with mobile, online, or physical loan companies that cater to students. You do not have to worry about missing a semester or an exam, because we’ve got you covered.</p>
                           </div>
                         </div>
                         <div class="col-md-6"> <img  width="307" class="education_img" src="../assets/education loan.png" alt=""></div>
@@ -227,82 +228,117 @@
     </div>
 </div>
 
-<div class="container-fluid bgImage">
-  <div class="row">
-    <div class="container letStarted">
-        <div class="row">
-            <div class="col-md-9">
-               <p>Accelerate the lending process with MyCScore. Launch your loan request today.</p>
-            </div>
-
-             <div style="margin-bottom:10%" class="col-md-3">
-               <button class="btn">Lets Begin!</button>
-            </div>
-            
-        </div>
-    </div>
-  </div>
-</div>
-
-<div class="container-fluid testimony_fluid">
-  <div style="padding-top: 4%;" class="container">
+<section class="bgImage">
+  <div class="letStarted">
     <div class="row">
-      <div class="col-md-5">
-        <img class="container-fluid img_fa" src="../assets/woman-standing-in-hallway-while-holding-book-1462630.png" alt="">
+      <div class="col-md-9">
+        <p>Accelerate the lending process with MyCScore. Launch your loan request today.</p>
       </div>
-       <div class="col-md-1">
-       </div>
-      <div class="col-md-6">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
- 
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-              <p><img class="" height="17" src="../assets/quote.svg" alt=""> </p>
+
+      <div class="col-md-3">
+        <button class="btn">Lets Begin!</button>
+      </div>
+            
+    </div>
+  </div>
+</section>
+
+<section class="container-fluid testimony_fluid">
+  <div class="container py-5">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <!-- Bunmi Balogun's Testimonial -->
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-md-5">
+              <img class="container-fluid img_fa" src="../assets/bunmi3.png" alt="">
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-6">
+              <p><img class="" height="17" src="../assets/quote.svg" alt=""></p>
               <div class="testimony">
-                <span>You are provided the education, resource and tools <br>necessary to get listed on Multiple listing Service. <br> You are provided the education, resource and tools <br> necessary to get listed on Multiple listing Service.</span>
+                <span>Thanks to MyCscore, I now have my personal credit score which has helped me get access to loans with a simple click.</span>
                 <br><br>
-                <b>Jane Doe</b>
+                <b>Bunmi Balogun</b>
                 <br>
-                <b>Paid her college tuition</b>
+                <b>Engineer</b>
               </div>  
-    </div>
-    <div class="carousel-item">
-              <p><img class="" height="17" src="../assets/quote.svg" alt=""> </p>
-               <br>
+            </div>
+          </div>
+        </div>
+        <!-- Stephen Nwadike's Testimonial -->
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-5">
+              <img class="container-fluid img_fa" src="../assets/stephen3.png" alt="">
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-6">
+              <p><img class="" height="17" src="../assets/quote.svg" alt=""></p>
               <div class="testimony">
-                <span>You are provided the education, resource and tools <br>necessary to get listed on Multiple listing Service. <br> You are provided the education, resource and tools <br> necessary to get listed on Multiple listing Service.</span>
+                <span>As a IT company, access to funding is of importance to growth. Thanks to MyCscore, I knew my rating and that of my business to help me get funding at anytime.</span>
                 <br><br>
-                <b>Jane Doe</b>
+                <b>Stephen Nwadike</b>
                 <br>
-                <b>Paid her college tuition</b>
-              </div>
-    </div>
-    <div class="carousel-item">
-              <p><img class="" height="17" src="../assets/quote.svg" alt=""> </p>
-               <br>
+                <b>CEO Peexoo</b>
+              </div>  
+            </div>
+          </div>
+        </div>
+        <!-- Richmond Ogaigai's Testimonial -->
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-5">
+              <img class="container-fluid img_fa" src="../assets/rich3.png" alt="">
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-6">
+              <p><img class="" height="17" src="../assets/quote.svg" alt=""></p>
               <div class="testimony">
-                <span>You are provided the education, resource and tools <br>necessary to get listed on Multiple listing Service. <br> You are provided the education, resource and tools <br> necessary to get listed on Multiple listing Service.</span>
+                <span>My organization knows its credit worth thanks to MyCscore, this as helped us get access to loans at any time.</span>
                 <br><br>
-                <b>Jane Doe</b>
+                <b>Richmond Ogigai</b>
                 <br>
-                <b>Paid her college tuition</b>
-              </div>
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true">
-    </span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+                <b>CEO Enov8 Solutions</b>
+              </div>  
+            </div>
+          </div>
+        </div>
+        <!-- Tosin Osunkoya Testimonial -->
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-5">
+              <img class="container-fluid img_fa" src="../assets/tosin3.png" alt="">
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-6">
+              <p><img class="" height="17" src="../assets/quote.svg" alt=""></p>
+              <div class="testimony">
+                <span>Knowing who is at a high level risk to my business has really being the best thing that happened to us, we do not just give out loans to those who will fait to pay back. But to only credit worthy individuals and business.</span>
+                <br><br>
+                <b>Tosin Osunkoya</b>
+                <br>
+                <b>Executive Director, Comercio Partners</b>
+              </div>  
+            </div>
+          </div>
+        </div>
       </div>
+      <div class="testimonials-next">
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true">
+            </span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+      </div>
+      
     </div>
   </div>
-</div>
+</section>
 
 
 <div style="background: #F1F3F6 0% 0% no-repeat padding-box; padding-bottom: 8%; padding-top: 8%;" class="container-fluid">
@@ -322,25 +358,25 @@
 
               <!--First column-->
               <div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
-                <img src="../assets/forbes.png" class="img-fluid px-4" alt="Logo">
+                <img src="../assets/cplogo.png" class="img-fluid px-4" alt="Logo">
               </div>
               <!--/First column-->
 
               <!--Second column-->
               <div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
-                <img src="../assets/apple.png" class="img-fluid px-4" alt="Logo">
+                <img src="../assets/thebulb.png" class="img-fluid px-4" alt="Logo">
               </div>
               <!--/Second column-->
 
               <!--Third column-->
               <div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
-                <img src="../assets/mashable.png" class="img-fluid px-4" alt="Logo">
+                <img src="../assets/peexoo.png" class="img-fluid px-4" alt="Logo">
               </div>
               <!--/Third column-->
 
               <!--Fourth column-->
               <div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
-                <img src="../assets/google.png" class="img-fluid px-4" alt="Logo">
+                <img src="../assets/avale.png" class="img-fluid px-4" alt="Logo">
               </div>
               <!--/Fourth column-->
 
@@ -356,25 +392,25 @@
 
               <!--First column-->
               <div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
-                <img src="../assets/forbes.png" class="img-fluid px-4" alt="Logo">
+                <img src="../assets/cplogo.png" class="img-fluid px-4" alt="Logo">
               </div>
               <!--/First column-->
 
               <!--Second column-->
               <div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
-                <img src="../assets/apple.png" class="img-fluid px-4" alt="Logo">
+                <img src="../assets/thebulb.png" class="img-fluid px-4" alt="Logo">
               </div>
               <!--/Second column-->
 
               <!--Third column-->
               <div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
-                <img src="../assets/mashable.png" class="img-fluid px-4" alt="Logo">
+                <img src="../assets/peexoo.png" class="img-fluid px-4" alt="Logo">
               </div>
               <!--/Third column-->
 
               <!--Fourth column-->
               <div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
-                <img src="../assets/google.png" class="img-fluid px-4" alt="Logo">
+                <img src="../assets/avale.png" class="img-fluid px-4" alt="Logo">
               </div>
               <!--/Fourth column-->
 
@@ -405,7 +441,7 @@
         </div>
         <div id="collapseOne" class="collapse" data-parent="#accordion">
           <div class="card-body card_body">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, dasol <br>desre sed do eiusmod tempor incididunt ut labore. Lorem ipsum <br> dolor sit amet, consectetur adipiscing elit, dasol desre sed do
+            It is the first African Credit decision platform. It is an interface for creditors and potential users, using top-notch AI-based algorithm to achieve borrower’s credibility and risk. 
           </div>
         </div>
         <br>
@@ -414,12 +450,12 @@
       <div style=" margin-bottom: 2%;" class="card">
         <div class="card-header faq_card">   <br>
           <a  class="card-link" data-toggle="collapse" href="#faq2">
-            Difference between student loan & Personal loans <span class="float-right faq_icon">  <img src="../assets/plus.svg" class="img-fluid " alt="Logo"></span>
+            What is a Credit Score? <span class="float-right faq_icon">  <img src="../assets/plus.svg" class="img-fluid " alt="Logo"></span>
           </a>  
         </div>
         <div id="faq2" class="collapse " data-parent="#accordion">
           <div class="card-body card_body">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, dasol <br>desre sed do eiusmod tempor incididunt ut labore. Lorem ipsum <br> dolor sit amet, consectetur adipiscing elit, dasol desre sed do
+            It is a calculated score generated based on your credit data. This score helps lenders evaluate your creditworthiness, if you would be able to pay back your loans on time and it influences the credit that is available to you based on your data.
           </div>
         </div>
         <br>
@@ -428,12 +464,14 @@
   <div style=" margin-bottom: 2%;" class="card">
         <div class="card-header faq_card">   <br>
           <a  class="card-link" data-toggle="collapse" href="#faq3">
-            Whats the difference between student loan & Personal loans <span class="float-right faq_icon">  <img src="../assets/plus.svg" class="img-fluid " alt="Logo"></span>
+            What is the difference between MyCScore Individual and Enterprise? <span class="float-right faq_icon">  <img src="../assets/plus.svg" class="img-fluid " alt="Logo"></span>
           </a>  
         </div>
         <div id="faq3" class="collapse " data-parent="#accordion">
           <div class="card-body card_body">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, dasol <br>desre sed do eiusmod tempor incididunt ut labore. Lorem ipsum <br> dolor sit amet, consectetur adipiscing elit, dasol desre sed do
+            For the individuals, they are the primary users, i.e. loan applicants. The service gives an individual the opportunity to know their credit score and see a perfect diagnosis of how to increase it. You are also linked with the best and credible loan platforms in Africa, with a breakdown of their demands and interest rates, and whether it is perfect for your score.
+            The enterprise plan is for the lenders. We give a risk assessment on each applicant and send the detailed report of their credit scores and risks associated with them. We also link Enterprise users with the loan applicants on our platform, with a direct link to their application.
+
           </div>
         </div>
         <br>
@@ -443,12 +481,14 @@
       <div style=" margin-bottom: 2%;" class="card">
         <div class="card-header faq_card">   <br>
           <a  class="card-link" data-toggle="collapse" href="#faq4">
-            How do I check my CScore? <span class="float-right faq_icon">  <img src="../assets/plus.svg" class="img-fluid " alt="Logo"></span>
+            Why Do I Need MyCScore? <span class="float-right faq_icon">  <img src="../assets/plus.svg" class="img-fluid " alt="Logo"></span>
           </a>  
         </div>
         <div id="faq4" class="collapse " data-parent="#accordion">
           <div class="card-body card_body">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, dasol <br>desre sed do eiusmod tempor incididunt ut labore. Lorem ipsum <br> dolor sit amet, consectetur adipiscing elit, dasol desre sed do
+            For Individuals: Your credit score on our platform will link you to the most credible loan platforms in Africa with low interest rates.
+            For Enterprise: We will help you save cost by linking you to verified loan applicants, and we will educate you with their credit scores, and help you with risk management
+
           </div>
         </div>
         <br>
@@ -458,12 +498,26 @@
       <div style=" margin-bottom: 2%;" class="card">
         <div class="card-header faq_card">   <br>
           <a  class="card-link" data-toggle="collapse" href="#faq5">
-            Why do I need MyCScore? <span  class="float-right faq_icon">  <img src="../assets/plus.svg" class="img-fluid " alt="Logo"></span>
+            How Do I Check MyCScore? <span  class="float-right faq_icon">  <img src="../assets/plus.svg" class="img-fluid " alt="Logo"></span>
           </a>  
         </div>
         <div id="faq5" class="collapse " data-parent="#accordion">
           <div class="card-body card_body">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            It is very easy; all you must do is click on Get Started, create your application as an individual or enterprise, and you are ready to go. The AI will generate your score immediately.
+          </div>
+        </div>
+        <br>
+      </div>
+
+      <div style=" margin-bottom: 2%;" class="card">
+        <div class="card-header faq_card">   <br>
+          <a  class="card-link" data-toggle="collapse" href="#faq5">
+            How Quickly Can MyCScore Access Credit Score for An Applicant? <span  class="float-right faq_icon">  <img src="../assets/plus.svg" class="img-fluid " alt="Logo"></span>
+          </a>  
+        </div>
+        <div id="faq5" class="collapse " data-parent="#accordion">
+          <div class="card-body card_body">
+            Within a minute, your score would be accessed and delivered based on each point being accessed
           </div>
         </div>
         <br>
@@ -512,20 +566,24 @@ import Footer from '../Footer.vue'
 .bgImage {
     background: url("../assets/backgroundwave.png");
     background-repeat: no-repeat;
-     /* background-size: cover; */
-    margin-bottom: 12%;
-    height: 600px;
+    background-size: cover;
+    background-attachment: fixed;
     width: 100%;
-    margin-top:-200px
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 
 .letStarted{
-    height: 100px;
+    padding: 10px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
     border-radius: 10px;
     opacity: 1;
-    margin-top: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .letStarted p{
@@ -579,7 +637,7 @@ import Footer from '../Footer.vue'
     background: #ffffff;
     /* width: 1400px;
     height: 200px; */
-    border-radius: 180px 180px 0px 0px;
+    border-radius: 180px 180px 0px 0px !important;
 }
 
 .record_analytic{
@@ -587,7 +645,7 @@ import Footer from '../Footer.vue'
     box-shadow: 0px 14px 50px #00000029;
     border-radius: 28px;
     opacity: 1;
-    margin-top: -4%;
+    margin-top: -5%;
     padding-bottom: 2%;
 }
 .record_analytic p{
@@ -804,7 +862,7 @@ import Footer from '../Footer.vue'
 
 
 .edu_loan{
-   margin-top: 55%;
+   margin-top: 45%;
 }
 .edu_loan h4{
     text-align: left;
@@ -899,8 +957,6 @@ border-bottom:3px solid #FFFFFF ;
 
 .testimony_fluid{
   background: #00105C 0% 0% no-repeat padding-box; 
-  height:440px; 
-  margin-top:-193px
 }
 
 .testimony{
@@ -933,18 +989,20 @@ border-bottom:3px solid #FFFFFF ;
   letter-spacing: 0px;
   opacity: 0.5;
 }
+.testimonials-next {
+  float: right !important;
+}
 
 .carousel-control-next-icon {
     background-image : url("../assets/leftarrow.svg") !important;
-    margin-top: 250%;
+    margin-top: 35%;
     padding: 30%;
-    margin-right: 250%;
 }
 .carousel-control-prev-icon {
     background-image : url("../assets/rightarrow.svg") !important;
-    margin-top: 250%;
-    padding: 22%;
-    margin-left: 700%;
+    margin-top: 35%;
+    padding: 20%;
+    margin-left: 110vw;
 }
 
 /* The @media query & responsive design start here */
@@ -1066,8 +1124,6 @@ and (max-device-width : 480px) {
 
   .testimony_fluid{
     background: #00105C 0% 0% no-repeat padding-box; 
-    height:100%; 
-    margin-top:-193px
   }
   .carousel-control-next-icon {
     background-image : none !important;

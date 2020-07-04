@@ -36,38 +36,31 @@
     <div class="tab-content" id="nav-tabContent">
       <div class="tab-pane fade show active listActivate" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
           <h1>Credit Scoring</h1>
-          <p>We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers. We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers.</p>
-          <p>We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers. We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers.</p>
-          <p>We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers. We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers.</p>
-          <p>We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers. We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers.</p>
-          <p>We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers. We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers.</p>
+          <p>For each application, your credit score will be unique and tailor-made just for you. 
+            We use millions of data provided from you to create a credit score, necessary to boost your approval rates and reduce 
+            delinquency chances. This score is accurate, and minimally devoid of fallacy.
+          </p>
           <button class="btn">Let’s Begin</button>
       </div>
       <div class="tab-pane fade listActivate" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
           <h1>Credit Analytics/ Reporting</h1>
-          <p>We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers. We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers.</p>
-          <p>We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers. We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers.</p>
-          <p>We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers. We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers.</p>
-          <p>We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers. We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers.</p>
-          <p>We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers. We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers.</p>
+          <p>
+            This service provides a platform for an interested financial institution, to look at a detailed report of
+            your credit score. We use data and insights from your credit activities, to provide an analytic form of profitability
+            plan for institutions, to guide them into knowing the benefits or disadvantages of lending out money to a user.
+          </p>
           <button class="btn">Let’s Begin</button>
       </div>
       <div class="tab-pane fade listActivate" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
          <h1>Artificial Intelligence as a service</h1>
-          <p>We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers. We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers.</p>
-          <p>We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers. We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers.</p>
-          <p>We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers. We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers.</p>
-          <p>We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers. We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers.</p>
-          <p>We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers. We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers.</p>
+          <p>AI is the latest tool from financial technology for obtaining the perfect credit score, improve customer engagement, and satisfy both users and financial institutions.  It scans online credit companies for instances of frauds and keeps a user’s application from them. It works easy with other software and algorithm without clashing, and it respects privacy laws, giving companies the opportunity to read a detailed report that might have been overlooked in the manual version.</p>
           <button class="btn">Let’s Begin</button>
       </div>
       <div class="tab-pane fade listActivate" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
           <h1>Risk Management</h1>
-          <p>We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers. We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers.</p>
-          <p>We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers. We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers.</p>
-          <p>We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers. We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers.</p>
-          <p>We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers. We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers.</p>
-          <p>We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers. We pride ourselves on being Technology Native and not being locked into certain technologies instead provided the best solution for customers.</p>
+          <p>Marketers and financial institution are given the chance of seeing and managing a user’s application and credit score. They understand the probability of default, and they are advised on the risks of approving each user’s loan.
+          Users are also updated on the interest rates of each financial institution that matches their application. They are advised on the risk of taking the loan, and their probability of being able to pay back without defaulting. It is a win-win situation for both forms of users.
+          </p>
           <button class="btn">Let’s Begin</button>
       </div>
     </div>
@@ -77,7 +70,7 @@
    
   </div>
 </div>
-<app-blogs></app-blogs> 
+<!-- <app-blogs></app-blogs>  -->
 <app-footer></app-footer> 
 </header>
 </template>

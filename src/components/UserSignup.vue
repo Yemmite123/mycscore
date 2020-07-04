@@ -9,7 +9,7 @@
             </div>
         </div>
         <div class="col-sm-6 col-12 px-lg-5 form-box">
-            <div class="p-5">
+            <div class="px-5 pt-5">
                 <div class="text-center mb-4">
                     <router-link to="/">
                         <img src="../assets/MyCScore.png" height="40px"/>
@@ -65,8 +65,12 @@
                         <span style="color: #F69409;">Log In</span>
                     </router-link>
                 </p>
-
+                <p class="text-center"><router-link to="/register" class="switch">
+                Want to register as an enterprise? Switch user
+                </router-link>
+            </p>
             </div>
+            
         </div>
       </div>
   </section>
@@ -206,7 +210,9 @@ select option:hover {
   color: #001B9B;
   margin-top: -23px;
 }
-
+.switch {
+  color:#001B9B;
+}
 
 
 
