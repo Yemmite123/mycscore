@@ -470,13 +470,13 @@
   <div style=" margin-bottom: 2%;" class="card">
         <div class="card-header faq_card">   <br>
           <a  class="card-link" data-toggle="collapse" href="#faq3">
-            What is the difference between MyCScore Individual and Enterprise? <span class="float-right faq_icon">  <img src="../assets/plus.svg" class="img-fluid " alt="Logo"></span>
+            Who Receives the Analysis Report? <span class="float-right faq_icon">  <img src="../assets/plus.svg" class="img-fluid " alt="Logo"></span>
           </a>  
         </div>
         <div id="faq3" class="collapse " data-parent="#accordion">
           <div class="card-body card_body">
-            For the individuals, they are the primary users, i.e. loan applicants. The service gives an individual the opportunity to know their credit score and see a perfect diagnosis of how to increase it. You are also linked with the best and credible loan platforms in Africa, with a breakdown of their demands and interest rates, and whether it is perfect for your score.
-            The enterprise plan is for the lenders. We give a risk assessment on each applicant and send the detailed report of their credit scores and risks associated with them. We also link Enterprise users with the loan applicants on our platform, with a direct link to their application.
+            It is the financial institution or lender from which the applicant intends to receive financial 
+            services from that receives the analysis reports as this aid and influence their decision-making process by determining who qualifies for a loan, at what rate and credit risk.
 
           </div>
         </div>
@@ -518,12 +518,12 @@
       <div style=" margin-bottom: 2%;" class="card">
         <div class="card-header faq_card">   <br>
           <a  class="card-link" data-toggle="collapse" href="#faq5">
-            How Quickly Can MyCScore Access Credit Score for An Applicant? <span  class="float-right faq_icon">  <img src="../assets/plus.svg" class="img-fluid " alt="Logo"></span>
+            Does MyCScore provide financial services? <span  class="float-right faq_icon">  <img src="../assets/plus.svg" class="img-fluid " alt="Logo"></span>
           </a>  
         </div>
         <div id="faq5" class="collapse " data-parent="#accordion">
           <div class="card-body card_body">
-            Within a minute, your score would be accessed and delivered based on each point being accessed
+            No, MyCScore does not provide Financial services, neither does it make the decision of granting loans.
           </div>
         </div>
         <br>
