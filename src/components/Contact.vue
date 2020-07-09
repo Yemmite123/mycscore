@@ -9,7 +9,7 @@
                 <h2 class="">Contact Us</h2>
             </div>
             <div class="col-md-6 thank">
-               <p class="home_title1"> Thank You for your interest in MyCScore. We’d love to hear from you. </p>
+               <p class="home_title1">Thank You for your interest in MyCScore. We’d love to hear from you. </p>
                 <!-- Material form login -->
 
 
@@ -28,17 +28,9 @@
       </div>
 
       <div class="md-form">
-        <input type="text" id="Work Email Address*" class="form-control">
+        <input type="email" id="Work Email Address*" class="form-control">
         <label for="WorkEmailAddress">Work Email Address*</label>
       </div>
-      
-    <div class="form-group">
-      <select>
-        <option>I’m interested in… </option>
-        <option>Value 2</option>
-      </select>
-      <hr>
-    </div>
         
       <div class="md-form">
         <textarea id="materialContactFormMessage" class="form-control md-textarea" rows="3"></textarea>
@@ -49,7 +41,7 @@
           <!-- Remember me -->
           <div class="form-check">
             <input type="checkbox" class="form-check-input" id="materialLoginFormRemember">
-            <label style="font-size:13px">I agree that the information submitted above, including without limitation any proposal or idea does not violate any third party rights. Lorem ipsum dolor sit amet, consectetur adipiscing elit, dasol desre sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</label>
+            <label style="font-size:13px">I agree that the information submitted above, including without limitation any proposal or idea does not violate any third party rights.</label>
           </div>
     <br>
 
@@ -164,10 +156,6 @@ and (min-device-width : 320px)
 and (max-device-width : 480px) {
 /* STYLES GO HERE */
  .bodyBack2{
-      background: url("../assets/2709893.svg");
-      background-repeat: no-repeat;
-      /* background-size: cover; */
-      height: 160%;
       width: 100%;
 }
 .home_title h2{

@@ -46,7 +46,7 @@ export default {
    color: #FA9917;
 }
 .navbar.navbar-light .navbar-nav .nav-item.active>.nav-link {
-    background-color: none !important;
+    background: none !important;
 }
 
 .btn-get-started{

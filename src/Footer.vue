@@ -99,19 +99,20 @@
       <!-- Grid column -->
       
       <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-        <h6 class="mdbTitlemb-4 mb-4 font-weight-bold">Solutions</h6>
+        <h6 class="mdbTitlemb-4 mb-4 font-weight-bold">Services</h6>
         <p>
-          <a href="#!">Security</a>
+          <router-link to="/Service#list-home">Credit Scoring</router-link>
         </p>
         <p>
-          <a href="#!">Online Demo</a>
+          <router-link to="/Service#list-profile">Credit Analytics</router-link>
         </p>
         <p>
-          <a href="#!">Partners</a>
+          <router-link to="/Service#list-messages">Artificial Intelligence</router-link>
         </p>
         <p>
-          <a href="#!">Partners</a>
+          <router-link to="/Service#list-settings">Risk Management</router-link>
         </p>
+        
       </div>
       <!-- Grid column -->
 
@@ -119,12 +120,9 @@
 
       <!-- Grid column -->
       <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-        <h6 class="mdbTitlemb-4 font-weight-bold ">Company</h6>
+        <h6 class="mdbTitlemb-4 mb-4 font-weight-bold ">Company</h6>
         <p>
           <a href="#!">About Us</a>
-        </p>
-        <p>
-          <a href="#!">Apply</a>
         </p>
         <p>
           <a href="#!">Blog</a>
@@ -196,6 +194,12 @@
 </footer>
 </template>
 
+<script>
+
+export default {
+  
+}
+</script>
 
 
 <style scoped>

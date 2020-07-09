@@ -10,8 +10,9 @@
           <div class="mt-md-5 pt-md-5">
             <div class="px-5 mx-lg-5 mt-md-5">
             <h2 class="few-clicks mb-5">A few clicks away to begin</h2>
-            <p class="sub-text">Lorem ipsum dolor, sit amet consectetur adipisicing . <br>In iusto corrupti eos elit beunos jeybd totam iste distinctio facere blanditiis.
-            <br> totam iste distinctio facere laudantium blanditiis.</p>
+            <p class="sub-text">Join us today!<br>
+            Credit Risk Management Powered By Artificial Intelligence.
+            We understand what it takes to run a profitable online lending operation.</p>
             </div>
         </div>
         </div>

@@ -1,8 +1,9 @@
 <template>
    <!-- Full Page Intro -->
-<header class="bodyBack2"> 
-  <app-header></app-header> 
-    <div  class="container artificial">
+<div>
+  <div class="bodyBack2">
+    <app-header></app-header> 
+    <div  class="container artificial pb-5">
         <div class="row">
             <div style="margin-top:9%" class="col-md-6 home_title">
                 <h2 class="">How Artificial Intelligence shapes Credit Scoring process.</h2>
@@ -14,9 +15,11 @@
             </div>
         </div>
     </div>
+  </div>
 
 
- <div style="margin-bottom:10%" class="container">
+<section id="services-tab">
+ <div style="margin-bottom:10%" class="container services-tab">
   <div class="row">
     <div class="col-md-12">
         <div class="row">
@@ -40,7 +43,7 @@
             We use millions of data provided from you to create a credit score, necessary to boost your approval rates and reduce 
             delinquency chances. This score is accurate, and minimally devoid of fallacy.
           </p>
-          <button class="btn">Let’s Begin</button>
+          <router-link to="Register"><button class="btn">Let’s Begin</button></router-link>
       </div>
       <div class="tab-pane fade listActivate" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
           <h1>Credit Analytics/ Reporting</h1>
@@ -49,19 +52,19 @@
             your credit score. We use data and insights from your credit activities, to provide an analytic form of profitability
             plan for institutions, to guide them into knowing the benefits or disadvantages of lending out money to a user.
           </p>
-          <button class="btn">Let’s Begin</button>
+          <router-link to="Register"><button class="btn">Let’s Begin</button></router-link>
       </div>
       <div class="tab-pane fade listActivate" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
          <h1>Artificial Intelligence as a service</h1>
           <p>AI is the latest tool from financial technology for obtaining the perfect credit score, improve customer engagement, and satisfy both users and financial institutions.  It scans online credit companies for instances of frauds and keeps a user’s application from them. It works easy with other software and algorithm without clashing, and it respects privacy laws, giving companies the opportunity to read a detailed report that might have been overlooked in the manual version.</p>
-          <button class="btn">Let’s Begin</button>
+          <router-link to="Register"><button class="btn">Let’s Begin</button></router-link>
       </div>
       <div class="tab-pane fade listActivate" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
           <h1>Risk Management</h1>
           <p>Marketers and financial institution are given the chance of seeing and managing a user’s application and credit score. They understand the probability of default, and they are advised on the risks of approving each user’s loan.
           Users are also updated on the interest rates of each financial institution that matches their application. They are advised on the risk of taking the loan, and their probability of being able to pay back without defaulting. It is a win-win situation for both forms of users.
           </p>
-          <button class="btn">Let’s Begin</button>
+          <router-link to="Register"><button class="btn">Let’s Begin</button></router-link>
       </div>
     </div>
   </div>
@@ -70,9 +73,10 @@
    
   </div>
 </div>
+</section> 
 <!-- <app-blogs></app-blogs>  -->
 <app-footer></app-footer> 
-</header>
+</div>
 </template>
 
 <script>
@@ -100,11 +104,10 @@ import Blogs from '../components/Blogs.vue'
       background: url("../assets/backgroundscores.png");
       background-repeat: no-repeat;
       background-size: cover;
-      height: 85%;
       width: 100%;
 }
 .artificial{
-  margin-bottom: 15%;
+  margin-bottom: 8%;
 }
 .home_title h2{
     text-align: left;
@@ -113,6 +116,9 @@ import Blogs from '../components/Blogs.vue'
     letter-spacing: 0px;
     color: #1B2484;
     margin-top: 25%;
+}
+.services-tab {
+  background: #fff;
 }
 .home_title p{
     text-align: left;
@@ -187,6 +193,13 @@ import Blogs from '../components/Blogs.vue'
     background-color: #FFFFFF;
     border:none
 }
+.list-group-item.active .dot{
+  background-color: #F69409;
+}
+.list-group-item.active .numberText{
+  color: #1B2484;
+  opacity: 1;
+}
 .dot {
     height: 60px;
     width: 60px;
@@ -194,6 +207,9 @@ import Blogs from '../components/Blogs.vue'
     border-radius: 50%;
     display: inline-block;
     color:white;
+}
+.list-group-item-action:focus, .list-group-item-action:hover {
+  background: none !important;
 }
 .numberLt{
     padding-top: 7px;
@@ -249,13 +265,6 @@ import Blogs from '../components/Blogs.vue'
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
 /* STYLES GO HERE */
- .bodyBack2{
-      background: url("../assets/2709893.svg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 100%;
-      width: 100%;
-}
 .service_img{
   margin-top: 0%;
 }

@@ -1,6 +1,6 @@
 <template>
    <!-- Full Page Intro -->
-<header class="bodyBack"> 
+<div class="bodyBack"> 
   <app-header></app-header> 
     <div style="margin-bottom: 20%;"  class="container">
         <div class="row">
@@ -178,7 +178,7 @@
         <div class="col-lg-4 col-md-6">
             <img style="height:80px;" class="image" src="../assets/target.svg" alt="">
             <p class="font-weight-bold my-3 whyMyCScoreTitle">Over 87% accuracy</p>
-            <p class="whyMyCScorePara">We guarantee an accuracy of over 87%, because the scoring and collation all performed by AI.</p>
+            <p class="whyMyCScorePara">We guarantee the accuracy of over 87% because the scoring and collation is not a manual task. It is all performed by AI.</p>
         </div>
         <!--/Second column-->
         <!--Third column-->
@@ -190,7 +190,9 @@
         <!--/Third column-->
       </div>
       <!--/Grid row-->
-       <a class="btn  btn-md ml-0 mb-5 btn-center whyMyCScoreBtn"> Get Started</a>
+       <router-link to="/About">
+         <button class="btn  btn-md ml-0 mb-5 btn-center whyMyCScoreBtn"> Get Started</button>
+       </router-link>
     </section>
     <!--Section: Content-->
      </div>
@@ -205,8 +207,10 @@
             
                 <h4>Some of Our</h4>
                 <h5>Loan Options</h5>
-                <p>We believe in passing on the savings to our customers with low, competitive rates and  fees available. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <button style="margin-bottom:10%" type="button" class="btn loan_opt_btn">Know More</button>
+                <p>We believe in passing on the savings to our customers with low, competitive rates and  fees available.</p>
+                <router-link to="/Service">
+                  <button style="margin-bottom:10%" type="button" class="btn loan_opt_btn">Know More</button>
+                </router-link>
             </div>
                <div  class="col-md-1">
                </div>
@@ -235,8 +239,10 @@
         <p>Accelerate the lending process with MyCScore. Launch your loan request today.</p>
       </div>
 
-      <div class="col-md-3">
-        <button class="btn">Lets Begin!</button>
+      <div class="col-md-3 pb-4">
+        <router-link to="/Register">
+          <button class="btn">Lets Begin!</button>
+        </router-link>
       </div>
             
     </div>
@@ -259,7 +265,7 @@
               <div class="testimony">
                 <span>Thanks to MyCscore, I now have my personal credit score which has helped me get access to loans with a simple click.</span>
                 <br><br>
-                <b>Bunmi Balogun</b>
+                <b class="testimony-name">Bunmi Balogun</b>
                 <br>
                 <b>Engineer</b>
               </div>  
@@ -278,7 +284,7 @@
               <div class="testimony">
                 <span>As a IT company, access to funding is of importance to growth. Thanks to MyCscore, I knew my rating and that of my business to help me get funding at anytime.</span>
                 <br><br>
-                <b>Stephen Nwadike</b>
+                <b class="testimony-name">Stephen Nwadike</b>
                 <br>
                 <b>CEO Peexoo</b>
               </div>  
@@ -295,9 +301,9 @@
             <div class="col-md-6">
               <p><img class="" height="17" src="../assets/quote.svg" alt=""></p>
               <div class="testimony">
-                <span>My organization knows its credit worth thanks to MyCscore, this as helped us get access to loans at any time.</span>
+                <span>My organization knows its credit worth thanks to MyCscore, this has helped us get access to loans at any time.</span>
                 <br><br>
-                <b>Richmond Ogigai</b>
+                <b class="testimony-name">Richmond Ogigai</b>
                 <br>
                 <b>CEO Enov8 Solutions</b>
               </div>  
@@ -314,9 +320,9 @@
             <div class="col-md-6">
               <p><img class="" height="17" src="../assets/quote.svg" alt=""></p>
               <div class="testimony">
-                <span>Knowing who is at a high level risk to my business has really being the best thing that happened to us, we do not just give out loans to those who will fait to pay back. But to only credit worthy individuals and business.</span>
+                <span>Knowing who is at a high level risk to my business has really being the best thing that happened to us, we do not just give out loans to those who will fail to pay back. But to only credit worthy individuals and business.</span>
                 <br><br>
-                <b>Tosin Osunkoya</b>
+                <b class="testimony-name">Tosin Osunkoya</b>
                 <br>
                 <b>Executive Director, Comercio Partners</b>
               </div>  
@@ -529,7 +535,7 @@
     
 </div>
   <app-footer></app-footer> 
-</header>
+</div>
 
 <!-- Footer -->
 
@@ -838,7 +844,11 @@ import Footer from '../Footer.vue'
 }
 
 .edu_loan_dis {
-    display:none;   
+    display:block;
+    background: #FFFFFF;
+    border-radius: 20px;
+    opacity: 1;
+    margin-left: -1.9%;  
 }
 .education_img{
   margin-left: 4%;
@@ -851,12 +861,7 @@ import Footer from '../Footer.vue'
 }
 #parent:hover .edu_loan_dis{
     /* height: 453px; */
-    display:block;
-    background: #FFFFFF;
-    border-radius: 20px;
-    opacity: 1;
-    margin-left: -1.9%;
-    width: 670px;
+    display:none;
 }
 
 
@@ -981,6 +986,11 @@ border-bottom:3px solid #FFFFFF ;
   letter-spacing: 0px;
   opacity: 1;
 }
+.testimony-name {
+  opacity: 1 !important;
+  font-family: Object Sans Regular !important;
+  font-size: 16px !important;
+}
 .testimony b{
   color: #FFFFFF;
   text-align: left;
@@ -1077,9 +1087,6 @@ and (max-device-width : 480px) {
     /* padding-left: 10px; */
     margin-bottom: 10%;
   }
-   .education_img{
-    margin-left: 0%;
-   } 
   
   .bgImage {
     background:none;
@@ -1178,6 +1185,9 @@ and (max-device-width : 480px) {
 .faq_icon img{
   height: 25px;
 }
+.whyMyCScorePara {
+    padding: 0px 20px;
+  }
 
 
 }
@@ -1229,6 +1239,7 @@ and (max-device-width : 1024px) {
     display: block;
     padding-bottom: 0%;
   }
+  
 }
 
 

@@ -99,7 +99,8 @@
     <div class="col-md-12">
        <h1>Stop worrying about Money</h1>
        <p>Get it today at MyCScore</p>
-       <center> <button class="btn">Get Started</button></center>
+       <center><router-link to="/register"> <button class="btn">Get Started</button>
+       </router-link></center>
     </div>
   </div>
 </div>

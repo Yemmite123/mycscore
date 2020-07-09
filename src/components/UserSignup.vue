@@ -4,8 +4,9 @@
         <div class="col-sm-6 col-12 image d-flex justify-content-md-center align-items-center">
             <div class="text-center px-5 text-white">
             <h1> Welcome to MyCScore</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing . <br>In iusto corrupti eos elit beunos jeybd totam iste distinctio facere blanditiis.
-            <br> totam iste distinctio facere laudantium blanditiis.</p>
+            <p class="sub-text">Join us today!<br>
+            Credit Risk Management Powered By Artificial Intelligence.<br>
+            We understand what it takes to run a profitable online lending operation.</p>
             </div>
         </div>
         <div class="col-sm-6 col-12 px-lg-5 form-box">
